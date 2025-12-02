@@ -1,0 +1,26 @@
+# Project Logbook — Updated for Phase 2
+
+Week 1
+- Proposal finalized and submitted
+- Dataset review completed (PlantVillage + SEN12MS)
+- Repository structure created on GitHub
+- Project Board created and linked
+- Team roles assigned 
+
+
+Week 2 (Phase 2 Start)
+- YOLOv8-n training script drafted (Sufyan)
+- NDVI extraction and VARI baseline started (Sufyan)
+- Jetson Nano assigned to both AbuBaker and Ahmed Rafiq
+- Meeting #2 recorded in /docs/meetings
+- /data updated with sample patches
+- /results folder prepared (Abeer)
+
+Week 3 (Ongoing)
+- YOLO training to begin on full dataset
+- NDVI/VARI testing on SEN12MS samples
+- Jetson Nano environment setup in progress (AbuBaker + Ahmed)
+- First results expected this week:
+  - Accuracy graphs  
+  - NDVI comparison plots  
+  - Jetson Nano FPS tests

@@ -1,0 +1,39 @@
+# Meeting 02 — Phase 2 Implementation
+
+Meeting Date: 2025-02-10  
+Members Present: All  
+Phase: Phase 2 — Model Training & Initial Implementation  
+
+1. Progress Since Last Meeting
+- Repository structure created (/docs, /src, /data, /results)
+- GitHub Project Board created and required members added
+- Proposal uploaded to /docs/proposal
+- Sample data files added to /data
+- YOLOv8-n training pipeline drafted (src/yolo_training.py)
+- SEN12MS NDVI/VARI extraction script started
+
+2. New Tasks Assigned
+1. | Complete YOLOv8-n training on PlantVillage | Sufyan | 1 week |
+2. | Finish NDVI/VARI computation script using SEN12MS | Sufyan | 1 week |
+3. | Jetson Nano setup (JetPack, CUDA, PyTorch, OpenCV) | AbuBaker + Ahmed Rafiq | 4–5 days |
+4. | Prepare /results folder and add placeholders for Phase 2 outputs | Abeer | 3 days |
+5. | Maintain /docs (meeting minutes, logbook updates) | Abeer | Ongoing |
+
+
+3. Issues / Blockers
+- SEN12MS dataset is too large — selective download method required  
+- Jetson Nano needs compatible JetPack version  
+- Need to finalize whether TensorRT conversion uses FP16 or INT8  
+
+
+4. Decisions Made
+- YOLOv8-n selected due to best performance on Jetson Nano  
+- NDVI estimator will start with RGB→NDVI regression and VARI baseline  
+- Jetson Nano responsibilities to be shared between **AbuBaker & Ahmed**  
+- Initial results (graphs, screenshots, logs) will be pushed to /results  
+
+
+5. Goals for Next Week
+- Finish first YOLOv8-n training run  
+- Generate sample NDVI-vs-ground-truth comparison  
+- Validate Jetson Nano GPU acceleration + FPS benchmark  

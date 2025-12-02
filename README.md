@@ -3,8 +3,8 @@ A lightweight, real-time crop-health monitoring system using YOLO-based plant di
 
 
 ------------------ Setup Instructions -----------------------
-A. Set Up on Laptop/PC (for training): Install required Python libraries
 
+A. Set Up on Laptop/PC (for training): Install required Python libraries
 B. Set Up Jetson Nano (for deployment):
    1. Install JetPack 4.x
    2. Make sure CUDA, cuDNN, and OpenCV are installed
@@ -37,6 +37,7 @@ Jetson Nano also needs:
 6. TensorRT
 
 ----------------- Usage Notes --------------------------
+
 A. Train YOLO Model: Run YOLO training on PlantVillage
 B. Run NDVI Estimation
 C. Run Real-Time Detection on Jetson Nano

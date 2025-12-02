@@ -1,0 +1,7 @@
+Datasets Used: 
+
+1. PlantVillage Dataset (for YOLO training)
+Kaggle: https://www.kaggle.com/datasets/emmarex/plantdisease
+
+2. SEN12MS Dataset (for NDVI ground truth)
+GitHub: https://github.com/schmitt-muc/SEN12MS/blob/master/classification/models/VGG.py

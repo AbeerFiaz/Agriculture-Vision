@@ -1,26 +1,34 @@
 # Project Logbook — Updated for Phase 2
 
-Week 1
-- Proposal finalized and submitted
-- Dataset review completed (PlantVillage + SEN12MS)
-- Repository structure created on GitHub
-- Project Board created and linked
-- Team roles assigned 
+## Week 1 — Planning Phase
+| No| Task                | Description                               | Assigned To |
+
+| 1 | Proposal Submission | Proposal finalized and submitted          | Whole Team  | 
+| 2 | Dataset Review      | Studied PlantVillage and SEN12MS datasets | Whole Team  |
+| 3 | GitHub Setup        | Repository structure created              | Abeer       |
+| 4 | Project Board       | GitHub Kanban board created and linked    | Abeer       |
+| 5 | Role Assignment     | Tasks distributed among team              | Whole Team  |
 
 
-Week 2 (Phase 2 Start)
-- YOLOv8-n training script drafted (Sufyan)
-- NDVI extraction and VARI baseline started (Sufyan)
-- Jetson Nano assigned to both AbuBaker and Ahmed Rafiq
-- Meeting #2 recorded in /docs/meetings
-- /data updated with sample patches
-- /results folder prepared (Abeer)
+## Week 2 — Implementation Phase
+| No| Task               | Description                                | Assigned To |
 
-Week 3 (Ongoing)
-- YOLO training to begin on full dataset
-- NDVI/VARI testing on SEN12MS samples
-- Jetson Nano environment setup in progress (AbuBaker + Ahmed)
-- First results expected this week:
-  - Accuracy graphs  
-  - NDVI comparison plots  
-  - Jetson Nano FPS tests
+| 1 | YOLO Script Draft  | Initial YOLOv8-n training script written   | Sufyan |
+| 2 | NDVI & VARI Setup  | NDVI extraction and VARI baseline started  | Sufyan |
+| 3 | Jetson Nano Task   | Hardware setup assigned                    | AbuBaker + Ahmed Rafiq |
+| 4 | Meeting Minutes    | Weekly meeting documented                  | Abeer |
+| 5 | Data Sample Update | Sample dataset patches added               | Abeer |
+| 6 | Results Folder     | Results directory created                  | Abeer |
+
+
+## Week 3 — Testing Phase (Ongoing)
+| No| Task               | Description                                | Assigned To |
+
+| 1 | YOLO Training      | Full dataset training started              | Sufyan |
+| 2 | NDVI Testing       | SEN12MS evaluation started                 | Sufyan |
+| 3 | Jetson Environment | CUDA, PyTorch, OpenCV installation         | AbuBaker + Ahmed Rafiq |
+| 4 | Accuracy Graphs    | Model performance plots prepared           | Whole Team |
+| 5 | NDVI Comparison    | NDVI vs ground truth plots generated       | Whole Team |
+| 6 | FPS Testing        | Jetson Nano performance tested             | Whole Team |
+
+---

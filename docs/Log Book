@@ -17,8 +17,8 @@
 
 | 1 | YOLO Script Draft  | Initial YOLOv8-n training script written   | Sufyan |
 | 2 | NDVI & VARI Setup  | NDVI extraction and VARI baseline started  | Sufyan |
-| 3 | Jetson Nano Task   | Hardware setup assigned                    | AbuBaker + Ahmed Rafiq |
-| 4 | Meeting Minutes    | Weekly meeting documented                  | Abeer |
+| 3 | Jetson Nano Task   | Hardware setup assigned                    | AbuBaker |
+| 4 | Meeting Minutes    | Weekly meeting documented                  | Ahmed Rafiq |
 | 5 | Data Sample Update | Sample dataset patches added               | Abeer |
 | 6 | Results Folder     | Results directory created                  | Abeer |
 
@@ -29,7 +29,7 @@
 
 | 1 | YOLO Training      | Full dataset training started              | Sufyan |
 | 2 | NDVI Testing       | SEN12MS evaluation started                 | Sufyan |
-| 3 | Jetson Environment | CUDA, PyTorch, OpenCV installation         | AbuBaker + Ahmed Rafiq |
+| 3 | Jetson Environment | CUDA, PyTorch, OpenCV installation         | AbuBaker |
 | 4 | Accuracy Graphs    | Model performance plots prepared           | Whole Team |
 | 5 | NDVI Comparison    | NDVI vs ground truth plots generated       | Whole Team |
 | 6 | FPS Testing        | Jetson Nano performance tested             | Whole Team |
@@ -58,9 +58,9 @@ Phase 3
 | 1 | YOLO Training Continuation | Training continued; loss and accuracy monitored      | Sufyan |
 | 2 | YOLO Result Generation     | Initial accuracy and loss graphs generated           | Sufyan |
 | 3 | NDVI Validation            | NDVI/VARI results compared with SEN12MS ground truth | Sufyan |
-| 4 | Jetson Environment Setup   | PyTorch, OpenCV, TensorRT installed on Jetson        | AbuBakar + Ahmed Rafiq |
-| 5 | Inference Testing          | Preliminary inference tested using sample images     | AbuBakar + Ahmed Rafiq |
-| 6 | Results Organization       | Phase 3 outputs organized in `/results`              | Abeer 
+| 4 | Jetson Environment Setup   | PyTorch, OpenCV, TensorRT installed on Jetson        | AbuBakar |
+| 5 | Inference Testing          | Preliminary inference tested using sample images     | AbuBakar |
+| 6 | Results Organization       | Phase 3 outputs organized in `/results`              | Abeer +  + Ahmed Rafiq |
 
 ---
 

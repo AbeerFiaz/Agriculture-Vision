@@ -1,7 +1,8 @@
 # Project Logbook — Updated for Phase 2
 
 ## Week 1 — Planning Phase
-| No| Task                | Description                               | Assigned To |
+
+|No.| Task                | Description                               | Assigned To |
 
 | 1 | Proposal Submission | Proposal finalized and submitted          | Whole Team  | 
 | 2 | Dataset Review      | Studied PlantVillage and SEN12MS datasets | Whole Team  |
@@ -11,7 +12,8 @@
 
 
 ## Week 2 — Implementation Phase
-| No| Task               | Description                                | Assigned To |
+
+|No.| Task               | Description                                | Assigned To |
 
 | 1 | YOLO Script Draft  | Initial YOLOv8-n training script written   | Sufyan |
 | 2 | NDVI & VARI Setup  | NDVI extraction and VARI baseline started  | Sufyan |
@@ -21,8 +23,9 @@
 | 6 | Results Folder     | Results directory created                  | Abeer |
 
 
-## Week 3 — Testing Phase (Ongoing)
-| No| Task               | Description                                | Assigned To |
+## Week 3 — Testing Phase 
+
+|No.| Task               | Description                                | Assigned To |
 
 | 1 | YOLO Training      | Full dataset training started              | Sufyan |
 | 2 | NDVI Testing       | SEN12MS evaluation started                 | Sufyan |
@@ -32,3 +35,55 @@
 | 6 | FPS Testing        | Jetson Nano performance tested             | Whole Team |
 
 ---
+
+Phase 3
+---
+
+## Week 4 — Phase 3 Start (Training & Deployment)
+
+|No.| Activity               | Description                                              | Assigned To |
+
+| 1 | Phase 3 Planning       | Phase 3 objectives finalized after Phase 2 review        | Whole Team |
+| 2 | YOLO Training Start    | Full YOLOv8-n training initiated on PlantVillage dataset | Sufyan |
+| 3 | NDVI / VARI Evaluation | NDVI and VARI testing started using SEN12MS samples      | Sufyan |
+| 4 | Jetson Setup (Initial) | JetPack and CUDA installation initiated                  | AbuBakar + Ahmed Rafiq |
+| 5 | Board Update           | GitHub Project Board updated with Phase 3 tasks          | Abeer |
+| 6 | MoM Documentation      | Phase 3 meeting minutes recorded and uploaded            | Abeer |
+
+
+
+## Week 5 — Model Evaluation & Embedded Setup
+
+|No.| Activity                   | Description                                          | Assigned To |
+
+| 1 | YOLO Training Continuation | Training continued; loss and accuracy monitored      | Sufyan |
+| 2 | YOLO Result Generation     | Initial accuracy and loss graphs generated           | Sufyan |
+| 3 | NDVI Validation            | NDVI/VARI results compared with SEN12MS ground truth | Sufyan |
+| 4 | Jetson Environment Setup   | PyTorch, OpenCV, TensorRT installed on Jetson        | AbuBakar + Ahmed Rafiq |
+| 5 | Inference Testing          | Preliminary inference tested using sample images     | AbuBakar + Ahmed Rafiq |
+| 6 | Results Organization       | Phase 3 outputs organized in `/results`              | Abeer |
+
+---
+
+## Week 6 — Testing, Optimization & Final Results (Planned)
+
+|No.| Activity              | Description                                       | Assigned To |
+
+| 1 | Model Optimization    | YOLOv8-n exported and optimized using TensorRT    | Sufyan + AbuBakar |
+| 2 | FPS Evaluation        | Real-time FPS and latency measured on Jetson Nano | AbuBakar + Ahmed Rafiq |
+| 3 | NDVI Visualization    | NDVI overlays and comparison plots finalized      | Sufyan |
+| 4 | Results Consolidation | Accuracy, NDVI error, and FPS metrics compiled    | Whole Team |
+| 5 | Documentation Update  | Phase 3 progress prepared for final report        | Abeer |
+
+---
+
+## Phase 3 Status Summary
+
+| Area                   | Status |
+
+| YOLO Training          | In Progress |
+| NDVI / VARI Evaluation | In Progress |
+| Jetson Nano Deployment | In Progress |
+| Result Generation      | Partial |
+| Documentation          | Ongoing |
+

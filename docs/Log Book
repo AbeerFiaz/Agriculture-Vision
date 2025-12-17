@@ -48,7 +48,6 @@ Phase 3
 | 3 | NDVI / VARI Evaluation | NDVI and VARI testing started using SEN12MS samples      | Sufyan |
 | 4 | Jetson Setup (Initial) | JetPack and CUDA installation initiated                  | AbuBakar + Ahmed Rafiq |
 | 5 | Board Update           | GitHub Project Board updated with Phase 3 tasks          | Abeer |
-| 6 | MoM Documentation      | Phase 3 meeting minutes recorded and uploaded            | Abeer |
 
 
 
@@ -61,7 +60,7 @@ Phase 3
 | 3 | NDVI Validation            | NDVI/VARI results compared with SEN12MS ground truth | Sufyan |
 | 4 | Jetson Environment Setup   | PyTorch, OpenCV, TensorRT installed on Jetson        | AbuBakar + Ahmed Rafiq |
 | 5 | Inference Testing          | Preliminary inference tested using sample images     | AbuBakar + Ahmed Rafiq |
-| 6 | Results Organization       | Phase 3 outputs organized in `/results`              | Abeer |
+| 6 | Results Organization       | Phase 3 outputs organized in `/results`              | Abeer 
 
 ---
 

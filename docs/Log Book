@@ -69,10 +69,10 @@ Phase 3
 |No.| Activity              | Description                                       | Assigned To |
 
 | 1 | Model Optimization    | YOLOv8-n exported and optimized using TensorRT    | Sufyan + AbuBakar |
-| 2 | FPS Evaluation        | Real-time FPS and latency measured on Jetson Nano | AbuBakar + Ahmed Rafiq |
+| 2 | FPS Evaluation        | Real-time FPS and latency measured on Jetson Nano | AbuBakar |
 | 3 | NDVI Visualization    | NDVI overlays and comparison plots finalized      | Sufyan |
 | 4 | Results Consolidation | Accuracy, NDVI error, and FPS metrics compiled    | Whole Team |
-| 5 | Documentation Update  | Phase 3 progress prepared for final report        | Abeer |
+| 5 | Documentation Update  | Phase 3 progress prepared for final report        | Abeer + Ahmed Rafiq |
 
 ---
 

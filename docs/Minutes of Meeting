@@ -12,12 +12,12 @@ Phase: Phase 2 — Model Training & Initial Implementation
 - YOLOv8-n training pipeline drafted (src/yolo_training.py)
 - SEN12MS NDVI/VARI extraction script started
 
-2. New Tasks Assigned
-1. | Complete YOLOv8-n training on PlantVillage | Sufyan | 1 week |
-2. | Finish NDVI/VARI computation script using SEN12MS | Sufyan | 1 week |
-3. | Jetson Nano setup (JetPack, CUDA, PyTorch, OpenCV) | AbuBaker + Ahmed Rafiq | 4–5 days |
-4. | Prepare /results folder and add placeholders for Phase 2 outputs | Abeer | 3 days |
-5. | Maintain /docs (meeting minutes, logbook updates) | Abeer | Ongoing |
+ | Task                                                             | Assigned To            | Time Allotted |
+ | Complete YOLOv8-n training on PlantVillage                       | Sufyan                 | 1 week |
+ | Finish NDVI/VARI computation script using SEN12MS                | Sufyan                 | 1 week |
+ | Jetson Nano setup (JetPack, CUDA, PyTorch, OpenCV)               | AbuBaker + Ahmed Rafiq | 4–5 days |
+ | Prepare /results folder and add placeholders for Phase 2 outputs | Abeer                  | 3 days |
+ | Maintain /docs (meeting minutes, logbook updates)                | Abeer                  | Ongoing |
 
 
 3. Issues / Blockers
@@ -37,3 +37,73 @@ Phase: Phase 2 — Model Training & Initial Implementation
 - Finish first YOLOv8-n training run  
 - Generate sample NDVI-vs-ground-truth comparison  
 - Validate Jetson Nano GPU acceleration + FPS benchmark  
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+# Minutes of Meeting — Phase 3
+
+Phase: Phase 3 — Training, Testing & Deployment  
+Meeting No.: 3  
+Date: 12-11-2025
+Mode: In-person / Online  
+
+## Attendees
+- Abeer  
+- Sufyan  
+- AbuBakar  
+- Ahmed Rafiq  
+
+
+## Agenda
+1. Review progress from Phase 2  
+2. Plan Phase 3 implementation tasks  
+3. Assign responsibilities for training, testing, and deployment  
+4. Define expected outputs for Phase 3
+
+## Discussion Summary
+
+- Phase 2 tasks were reviewed and confirmed as completed, including repository setup, baseline NDVI work, and initial YOLO script drafting.
+- It was agreed that Phase 3 will focus on **full-scale model training**, **NDVI/VARI evaluation**, and **Jetson Nano deployment**.
+- YOLOv8-n will be trained on the complete PlantVillage dataset and evaluated using accuracy and loss metrics.
+- NDVI and VARI outputs will be tested on SEN12MS samples and compared against ground truth NDVI.
+- Jetson Nano setup will be completed, followed by real-time inference testing and FPS measurement.
+- Results such as plots, graphs, and performance logs will be documented and stored in the `/results` directory.
+
+
+## Decisions Made
+
+- YOLOv8-n selected as the final detection model for deployment.
+- RGB-based NDVI/VARI estimation to be used instead of multispectral hardware.
+- TensorRT optimization will be applied for Jetson Nano inference.
+- Phase 3 results will include both quantitative metrics and visual outputs.
+
+---
+
+## Action Items
+
+| Task                  | Description                                 | Assigned To |
+| YOLO Full Training    | Train YOLOv8-n on full PlantVillage dataset | Sufyan |
+| NDVI / VARI Testing   | Evaluate vegetation indices using SEN12MS   | Sufyan |
+| Jetson Nano Setup     | Configure JetPack, CUDA, PyTorch, OpenCV    | AbuBakar + Ahmed Rafiq |
+| Jetson FPS Testing    | Measure real-time inference performance     | AbuBakar + Ahmed Rafiq |
+| Results Documentation | Organize plots, logs, and outputs           | Abeer |
+| Meeting Documentation | Record and upload MoM                       | Abeer |
+
+---
+
+## Expected Outcomes (Phase 3)
+- YOLO training accuracy and loss curves  
+- NDVI vs ground truth comparison plots  
+- Jetson Nano real-time FPS and latency results  
+- Organized results directory for final reporting  
+
+---
+
+**Next Meeting:**  
+Progress review and result validation for Phase 3.
+
